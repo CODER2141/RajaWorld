@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+
+
+.navbar {
+    line-height: 5rem;
+    text-align: center;
+    background-color: rgb(194, 73, 73);
+}
+.left h1{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+#home{
+    width: 80%;
+    margin:  1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lefthome{
+    width: 500px;
+
+}
+.lefthome h3{
+    color: #de2639;
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.lefthome h2{
+    color: rgb(252, 252, 252);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.desc{
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: black;
+}
+
+.righthome{
+    width: 50%;
+    margin: 1rem;
+}
+
+.btn{
+    cursor: pointer;
+    color: #de2639;
+    font-weight: bold;
+    border-radius: 6rem;
+    padding: .7rem  1.5rem;
+    text-transform: uppercase;
+    border: 1.5px solid #de2639;
+    background-color: transparent;
+}
+
+@media screen and (max-width:810px){
+    #home{
+        flex-direction: column-reverse;
+    }
+
+    .righthome{
+        width: 90%;
+    }
+
+    .lefthome{
+        margin: 0;
+        width: 100%;
+    }
+
+    .lefthome h3{
+        font-size: 1rem;
+    }
+
+    .lefthome h2{
+        font-size: 2rem;
+    }
+
+    .btn{
+        display: block;
+        margin: 0 auto;
+    }
+    
+
+    }
+
+  
+ 
